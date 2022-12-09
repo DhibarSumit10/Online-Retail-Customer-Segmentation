@@ -1,4 +1,5 @@
 # Online-Retail-Customer-Segmentation
+![image](https://user-images.githubusercontent.com/100988340/206768891-01357cb5-fa4e-4f73-9428-bff61e827773.png)
 
 ## Problem Description :
 
@@ -6,21 +7,28 @@ The main goal is to identify major customer segments like customers that are mos
 
 # SUMMARY
 ## Steps Involved : -
-## * Data Preprocessing :
+### Data Preprocessing :
 Started with understanding the dataset, some basic inspection like checking columns, data statistics, missing values, duplicate values after that handling those null values, duplicates and some data cleaning.
 
-## * Feature Engineering :
+### Feature Engineering :
 Some new features have been created to get more insights from the datset.
 
-## * Exploratory Data Analysis :
+### Exploratory Data Analysis :
 we tried to get some insights from the data by plotting graphs and charts. We saw top customers who have purchased the maximum quantity. Interestingly. We saw not only maximum transactions come from the UK but also most customers are located in the United Kingdom.
 
-## * RFM Analysis :
+### RFM Analysis :
 Next, we formulated some quantitative factors such as Recency, Frequency and Monetary known as RFM model for each of the customers. We did some feature engineering and EDA on this new dataset as well. We also made some transformations in this dataset to make it ready to be passed to different clustering algorithms.
 
-## * Model Summary :
+### Model Summary :
 1. We started with binning of RFM Score and RFM Group segmentation model, then moved to more complex models.
 
 2. We moved to k-means clustering , we selected optimal number of clusters with the help of Elbow Curve and Silhouette Score and visualized the results with different number of clusters. As we know there is no assurance that k-means will lead to the global best solution. We moved forward and tried Hierarchical Clustering and DBSCAN clustering as well.
 
 3. We created several useful clusters of customers on the basis of different metrics and methods to categorize the customers on the basis of their beavioural attributes to define their valuability, loyality, profitability etc. for the business. Though significantly separated clusters are not visible in the plots, but the clusters obtained is fairly valid and useful as per the algorithms and the statistics extracted from the data.
+
+## Results :
+### Cluster Summary 🢂
+![image](https://user-images.githubusercontent.com/100988340/206769539-e835ecaa-f58f-4ba8-8f20-f27e9a765339.png)
+### Customer Segment Summary 🢂
+![image](https://user-images.githubusercontent.com/100988340/206769737-80371393-e827-43d8-ab9e-5e98f42e5aa1.png)
+
